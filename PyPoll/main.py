@@ -25,36 +25,7 @@ with open (election_data, newline = "") as csvfile:
                         unique_candidates.append(candidate)
                         candidate_votes[candidate] = 0
                 candidate_votes[candidate] += 1
-               
-                # percent_votes = candidate/count_votes(100)
-                # count_votes.append.percent_votes
-                # number_of_votes = candidate.count(candidate)
-                # count_votes.append(number_of_votes)
-                # winner_vote = max(count_votes)
-                # winner = unique_candidates[count_votes.index(winner_vote)]
-
-#print("Election Results")
-#print("---------------------")
-#print(f"Total Votes: {count_votes}")
-#print("---------------------")
-#print(f"{candidate_votes}")
-#print("---------------------")
-
-
-#with open (output_data, "w") as txtfile:
-        #election_results = (f"Election Results\n"
-                #f"-----------------\n"
-                #f"Total Votes: {count_votes}\n"
-                #f"---------------------\n"
-#                        )
-        #txtfile.write(election_results)
-        #for candidate in candidate_votes:
-                #votes = candidate_votes.get(candidate) 
-                #percent_votes = (votes/count_votes) *100
-                #if votes > winning_count:
-                        #winning_count = votes
-                        #winning_candidate = candidate
-       
+   
         
 
 print("Election Results")
